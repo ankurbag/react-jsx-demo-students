@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MyFirstComponent from "./MyFirstComponent";
+import MyFirstComponent from "./components/MyFirstComponent";
+import TodoList from "./components/TodoList";
 
 // Create a TodoListComponent
 // Show list Items under Ul
@@ -13,7 +14,14 @@ TODO
 */
 // Add the component here!
 function App() {
-	return <MyFirstComponent />;
+	return (
+		<>
+			<TodoList />
+			<TodoList />
+			<MyFirstComponent />
+			<TodoList />
+		</>
+	);
 }
 
 export default App;
