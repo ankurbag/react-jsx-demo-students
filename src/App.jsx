@@ -17,9 +17,7 @@ function App() {
 	return (
 		<>
 			<TodoList />
-			<TodoList />
 			<MyFirstComponent />
-			<TodoList />
 		</>
 	);
 }
